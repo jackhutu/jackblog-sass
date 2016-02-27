@@ -1,7 +1,7 @@
 {
   "name": "jackblog-sass",
   "description": "jackblog css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.css",
   "authors": [
     "Jack Hu <hutufeia2009@sina.com>"
