@@ -2,7 +2,9 @@
 Jackblog css 样式, 使用sass + compass
 
 ## 安装
+```
 $ npm i --save jackblog-sass
+```
 
 ## 依赖
 bootstrap-sass
