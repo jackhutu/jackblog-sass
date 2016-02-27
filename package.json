@@ -1,0 +1,28 @@
+{
+  "name": "jackblog-sass",
+  "version": "1.0.0",
+  "description": "jackblog css",
+  "repository": "https://github.com/jackhutu/jackblog-sass",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
+  "peerDependencies": {
+    "bootstrap-sass": "^3.3.5",
+    "font-awesome": "^4.5.0"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-flatten": "^0.2.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sequence": "^0.4.1",
+    "gulp-util": "^3.0.6",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
