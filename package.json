@@ -2,7 +2,7 @@
   "name": "jackblog-sass",
   "version": "1.0.0",
   "description": "Jackblog css 样式, 使用sass + compass",
-  "main": "gulpfile.js",
+  "main": "dist/index.css",
   "peerDependencies": {
     "bootstrap-sass": "^3.3.5",
     "font-awesome": "^4.5.0"
