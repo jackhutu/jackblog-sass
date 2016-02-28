@@ -539,10 +539,6 @@ input.ng-valid.ng-dirty {
 
 /***********************footer**************/
 footer {
-  /*   position: fixed;
-    bottom: 0;
-    left: 45px;
-    width: 100%; */
   display: none !important;
   padding: 10px 0 10px 25%;
   border-top-width: 1px;
