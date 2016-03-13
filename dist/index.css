@@ -342,6 +342,23 @@ input.ng-valid.ng-dirty {
   top: 5px;
 }
 
+.browsehappy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px 0 12px;
+  text-align: center;
+  background-color: #d9534f;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1100;
+}
+.browsehappy a {
+  color: yellow;
+}
+
 /* navbar,sidebar,footer and other component */
 .navbar-box {
   position: fixed;
