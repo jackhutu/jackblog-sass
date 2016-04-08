@@ -458,6 +458,7 @@ input.ng-valid.ng-dirty {
 .navbar-menu a.navbar-item {
   float: left;
   width: 45px;
+  height: 45px;
 }
 .navbar-menu a.navbar-item:hover {
   background-color: #f49484;
@@ -470,7 +471,6 @@ input.ng-valid.ng-dirty {
 }
 .navbar-menu .logo {
   font-size: 18px;
-  color: white;
 }
 .navbar-menu .mobile {
   padding: 5px;
