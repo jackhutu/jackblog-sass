@@ -295,7 +295,7 @@ input.ng-valid.ng-dirty {
   text-align: left;
 }
 
-.flex-vertical-box, .signin-box {
+.flex-vertical-box {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
@@ -1026,30 +1026,22 @@ ul.sort-tags .loader-tiny {
   border-radius: 2px;
 }
 
-.signin-box {
-  min-height: 450px;
-}
-@media (max-height: 500px) {
-  .signin-box {
-    margin-top: 50px;
-  }
+.settings-box, .signin-box {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 10px 10px;
 }
 @media (min-width: 768px) {
-  .signin-box {
-    padding-left: 45px;
+  .settings-box, .signin-box {
+    width: 700px;
+    padding: 20px 0 10px 45px;
   }
 }
-
-.signin-container {
-  display: inline-block;
-  /* non-flexbox browsers */
-  -webkit-flex: 1 0;
-  flex: 1 0;
-}
-.signin-container .title {
-  margin-bottom: 20px;
+.settings-box .title, .signin-box .title {
+  margin: 25px auto;
   text-align: center;
 }
+
 .signin-form {
   max-width: 300px;
   padding-bottom: 40px;
@@ -1121,22 +1113,6 @@ ul.sort-tags .loader-tiny {
   background-color: #49be38;
 }
 
-.settings-box {
-  width: 100%;
-  margin: 0 auto;
-  padding: 60px 10px 10px;
-}
-@media (min-width: 768px) {
-  .settings-box {
-    width: 700px;
-    padding: 20px 0 10px 45px;
-  }
-}
-
-.settings-container .title {
-  text-align: center;
-  margin-bottom: 25px;
-}
 .settings-container form.settings-form {
   max-width: 300px;
   margin: 0 auto 40px;

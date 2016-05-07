@@ -1,6 +1,6 @@
 {
   "name": "jackblog-sass",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Jackblog css 样式, 使用sass + compass",
   "main": "dist/index.css",
   "peerDependencies": {
@@ -8,8 +8,8 @@
     "font-awesome": "^4.5.0"
   },
   "devDependencies": {
-    "del": "^2.0.2",
-    "gulp": "^3.9.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
     "gulp-compass": "^2.1.0",
     "gulp-csso": "^1.0.0",
     "gulp-filter": "^3.0.1",
@@ -17,7 +17,7 @@
     "gulp-imagemin": "^2.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sequence": "^0.4.1",
+    "gulp-sequence": "^0.4.5",
     "gulp-util": "^3.0.6",
     "imagemin-pngquant": "^4.2.0"
   },
@@ -28,7 +28,11 @@
     "type": "git",
     "url": "git+https://github.com/jackhutu/jackblog-sass.git"
   },
-  "keywords": ["jackblog","sass","compass"],
+  "keywords": [
+    "jackblog",
+    "sass",
+    "compass"
+  ],
   "author": "Jack Hu",
   "license": "MIT",
   "bugs": {
