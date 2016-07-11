@@ -35,6 +35,12 @@
 			padding-bottom: 5px;
 		}
 	}
+  a.expanded-var{
+    display: block;
+    background-image: url('./assets/images/icons.png');
+    background-repeat: no-repeat;
+    @include background-origin(content-box);
+  }
 }
 //样式
 .navbar-skin{
@@ -44,7 +50,8 @@
   }
   .navbar-item{
   	display: block;
-  	text-align: center;
+  	margin: 0 auto;
+    text-align: center;
   	padding: 10px;
   }
 	//缩小屏幕样式
@@ -89,6 +96,24 @@
 			padding: 0 2px;
 			margin-right: 8px;
 		}
+    /***其它版本图标**/
+    a.expanded-var{
+      width: 44px;
+      height: 45px;
+      padding: 14px;
+    }
+    a.angular2{
+      background-position: -40px 0;
+    }
+    a.angular1{
+      background-position: -40px -40px;
+    }
+    a.react{
+      background-position: -40px -80px;
+    }
+    a.vue{
+      background-position: -40px -120px;
+    }
 	}
 
 
@@ -141,6 +166,26 @@
 	    	}
 	    }
 		}
+    /***其它版本图标**/
+    a.expanded-var{
+      width: 45px;
+      height: 44px;
+      padding: 11px;
+    }
+
+    a.angular2{
+      background-position: 0 0;
+    }
+    a.angular1{
+      background-position: 0 -40px;
+    }
+    a.react{
+      background-position: 0 -80px;
+    }
+    a.vue{
+      background-position: 0 -120px;
+    }
+
 		a.expanded-version{
 			padding:10px;
 			img{

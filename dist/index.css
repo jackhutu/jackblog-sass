@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .sort-sprite, .icon-sort-desc, .icon-sort-desc-disabled, .icon-sort-asc, .icon-sort-asc-disabled, .icon-sort-both {
   background-image: url('./assets/images/sort-s0f57be200a.png');
   background-repeat: no-repeat;
@@ -399,6 +400,15 @@ input.ng-valid.ng-dirty {
     padding-bottom: 5px;
   }
 }
+.navbar-box a.expanded-var {
+  display: block;
+  background-image: url("./assets/images/icons.png");
+  background-repeat: no-repeat;
+  -moz-background-origin: content;
+  -o-background-origin: content-box;
+  -webkit-background-origin: content;
+  background-origin: content-box;
+}
 
 @media (min-width: 768px) {
   .navbar-skin {
@@ -408,8 +418,12 @@ input.ng-valid.ng-dirty {
 }
 .navbar-skin .navbar-item {
   display: block;
+  margin: 0 auto;
   text-align: center;
   padding: 10px;
+}
+.navbar-shrink {
+  /***其它版本图标**/
 }
 .navbar-shrink .navbar-item {
   width: 45px;
@@ -455,6 +469,23 @@ input.ng-valid.ng-dirty {
   padding: 0 2px;
   margin-right: 8px;
 }
+.navbar-shrink a.expanded-var {
+  width: 44px;
+  height: 45px;
+  padding: 14px;
+}
+.navbar-shrink a.angular2 {
+  background-position: -40px 0;
+}
+.navbar-shrink a.angular1 {
+  background-position: -40px -40px;
+}
+.navbar-shrink a.react {
+  background-position: -40px -80px;
+}
+.navbar-shrink a.vue {
+  background-position: -40px -120px;
+}
 .navbar-menu a.navbar-item {
   float: left;
   width: 45px;
@@ -475,6 +506,9 @@ input.ng-valid.ng-dirty {
 .navbar-menu .mobile {
   padding: 5px;
   font-size: 24px;
+}
+.navbar-expanded {
+  /***其它版本图标**/
 }
 .navbar-expanded a.navbar-item:hover {
   color: white;
@@ -498,6 +532,23 @@ input.ng-valid.ng-dirty {
 }
 .navbar-expanded a.expanded-avatar:hover img {
   border-color: #f49484;
+}
+.navbar-expanded a.expanded-var {
+  width: 45px;
+  height: 44px;
+  padding: 11px;
+}
+.navbar-expanded a.angular2 {
+  background-position: 0 0;
+}
+.navbar-expanded a.angular1 {
+  background-position: 0 -40px;
+}
+.navbar-expanded a.react {
+  background-position: 0 -80px;
+}
+.navbar-expanded a.vue {
+  background-position: 0 -120px;
 }
 .navbar-expanded a.expanded-version {
   padding: 10px;
