@@ -35,11 +35,15 @@
 			padding-bottom: 5px;
 		}
 	}
+	//最小屏幕隐藏
   a.expanded-var{
-    display: block;
+    display: none;
     background-image: url('./assets/images/icons.png');
     background-repeat: no-repeat;
     @include background-origin(content-box);
+		@media (min-width: $screen-xs-min){
+			display: block !important;
+		}		
   }
 }
 //样式
