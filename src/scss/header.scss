@@ -35,15 +35,10 @@
 			padding-bottom: 5px;
 		}
 	}
-	//最小屏幕隐藏
   a.expanded-var{
-    display: none;
     background-image: url('./assets/images/icons.png');
     background-repeat: no-repeat;
-    @include background-origin(content-box);
-		@media (min-width: $screen-xs-min){
-			display: block !important;
-		}		
+    @include background-origin(content-box);	
   }
 }
 //样式
@@ -104,7 +99,7 @@
     a.expanded-var{
       width: 44px;
       height: 45px;
-      padding: 14px;
+      padding: 14px;			
     }
     a.angular2{
       background-position: -40px 0;
@@ -118,6 +113,19 @@
     a.vue{
       background-position: -40px -120px;
     }
+		@media (min-width:320px) and (max-width: 400px){
+			.navbar-item{
+				display: none;
+			}
+			.shrink-login{
+				margin-right: 0px;
+			}
+		}
+		@media (max-width:319px){
+			a.expanded-var{
+				display: none;
+			}
+		}				
 	}
 
 

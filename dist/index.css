@@ -401,18 +401,12 @@ input.ng-valid.ng-dirty {
   }
 }
 .navbar-box a.expanded-var {
-  display: none;
   background-image: url("./assets/images/icons.png");
   background-repeat: no-repeat;
   -moz-background-origin: content;
   -o-background-origin: content-box;
   -webkit-background-origin: content;
   background-origin: content-box;
-}
-@media (min-width: 480px) {
-  .navbar-box a.expanded-var {
-    display: block !important;
-  }
 }
 
 @media (min-width: 768px) {
@@ -490,6 +484,19 @@ input.ng-valid.ng-dirty {
 }
 .navbar-shrink a.vue {
   background-position: -40px -120px;
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .navbar-shrink .navbar-item {
+    display: none;
+  }
+  .navbar-shrink .shrink-login {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 319px) {
+  .navbar-shrink a.expanded-var {
+    display: none;
+  }
 }
 .navbar-menu a.navbar-item {
   float: left;
