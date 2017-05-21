@@ -1,6 +1,6 @@
 {
   "name": "jackblog-sass",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Jackblog css 样式, 使用sass + compass",
   "main": "dist/index.css",
   "peerDependencies": {

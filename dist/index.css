@@ -401,13 +401,18 @@ input.ng-valid.ng-dirty {
   }
 }
 .navbar-box a.expanded-var {
-  display: block;
+  display: none;
   background-image: url("./assets/images/icons.png");
   background-repeat: no-repeat;
   -moz-background-origin: content;
   -o-background-origin: content-box;
   -webkit-background-origin: content;
   background-origin: content-box;
+}
+@media (min-width: 480px) {
+  .navbar-box a.expanded-var {
+    display: block !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1099,6 +1104,10 @@ ul.sort-tags .loader-tiny {
   margin: 0 auto 25px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+}
+.signin-form .form-group {
+  margin-left: 0;
+  margin-right: 0;
 }
 .signin-form input {
   height: 44px;
