@@ -36,6 +36,7 @@
 		}
 	}
   a.expanded-var{
+		display: block;
     background-image: url('./assets/images/icons.png');
     background-repeat: no-repeat;
     @include background-origin(content-box);	
